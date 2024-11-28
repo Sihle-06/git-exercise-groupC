@@ -17,5 +17,8 @@ This part will allow the users to update the added goal
 User Authentication: Ensures only registered users can access the tracker.
 
 
-goals.push(goal);
+
+const goal_list = [];
+const goals = {name: "Sihle", numberOfGoal: 1};
+goal_list.push(goals);
 
